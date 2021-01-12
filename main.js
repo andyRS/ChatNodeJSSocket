@@ -1,5 +1,5 @@
 var socket = io.connect('http://10.0.0.1:6677,{'forceNew':true});
-
+console.log("Conectado");
 socket.on('messages',function(data){
     console.log(data);
 
