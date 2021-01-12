@@ -36,5 +36,5 @@ io.on('connection',function(socket){
 });
 
 server.listen(6677, function(){
-    console.log('Servidor Funcionando correctamente en http://localhost:6677');
+    console.log('Servidor Funcionando correctamente en https://andyrs.github.io/ChatNodeJSSocket/');
 });
