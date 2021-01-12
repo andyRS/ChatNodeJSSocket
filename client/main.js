@@ -1,4 +1,4 @@
-var socket = io.connect('http://10.0.0.3:6677',{'forceNew':true});
+var socket = io.connect('https://andyrs.github.io/ChatNodeJSSocket',{'forceNew':true});
 
 socket.on('messages',function(data){
     console.log(data);
