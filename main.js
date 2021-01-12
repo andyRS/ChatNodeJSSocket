@@ -1,4 +1,4 @@
-var socket = io.connect('http:148.0.25.145:6677,{'forceNew':true});
+var socket = io.connect('http://10.0.0.1:6677,{'forceNew':true});
 
 socket.on('messages',function(data){
     console.log(data);
